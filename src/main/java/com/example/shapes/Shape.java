@@ -7,9 +7,20 @@ import java.awt.*;
  * 座標を持ち、描画メソッドをサブクラスで実装する。
  */
 public abstract class Shape {
-    protected int x;
-    protected int y;
-    protected Color color;
+        /**
+ * X座標（ピクセル単位）
+ */
+protected int x;
+
+/**
+ * Y座標（ピクセル単位）
+ */
+protected int y;
+
+/**
+ * 図形の色
+ */
+protected Color color;
 
     /**
      * コンストラクタ。
